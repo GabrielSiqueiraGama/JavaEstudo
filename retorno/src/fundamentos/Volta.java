@@ -9,8 +9,8 @@ public class Volta {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String valor1 = JOptionPane.showInputDialog("Digite um valor: ");
-		String valor2 = JOptionPane.showInputDialog("Digite um valor: ");
+		String valor1 = JOptionPane.showInputDialog("Digite um valor no formato double: ");
+		String valor2 = JOptionPane.showInputDialog("Digite um valor no formato double: ");
 		System.out.println(valor1 + valor2);
 		
 		double numero1 = Double.parseDouble(valor1);
