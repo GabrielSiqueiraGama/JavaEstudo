@@ -1,9 +1,12 @@
 package fundamentos;
 
+import java.util.Scanner;
+
 import javax.swing.JOptionPane;
 
 /**
  * @author Gabriel Siqueira Gama <siqueiragamagabriel@gmail.com>
+ * ctrl shift l l pasta com atalhos
  */
 public class Volta {
 
