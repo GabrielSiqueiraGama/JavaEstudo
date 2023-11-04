@@ -19,7 +19,8 @@ public class TesteData {
 		d2.mes = 11;
 		d2.ano = 2003;
 		
-		System.out.printf("%d/%d/%d\n", d1.dia, d1.mes, d1.ano);
+		d1.imprimirData();
+		
 		System.out.printf("%d/%d/%d\n", d2.dia, d2.mes, d2.ano);
 	}
 }
