@@ -13,7 +13,8 @@ public class Usuario {
 	}
 	@Override
 	public int hashCode() {
-		return Objects.hash(nome);
+		// TODO Auto-generated method stub
+		return 1;
 	}
 
 	@Override
