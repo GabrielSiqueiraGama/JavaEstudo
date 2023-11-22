@@ -1,9 +1,13 @@
 package oo;
 
 public class Motor {
+	final Carro carro;
 	boolean ligado = false;
 	double fatorInjecao = 1.0;
 	
+	Motor (Carro carro){
+		this.carro = carro;
+	}
 	int giros(){
 		if(!ligado) {
 			return 0;
