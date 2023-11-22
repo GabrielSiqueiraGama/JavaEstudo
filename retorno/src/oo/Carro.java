@@ -1,6 +1,7 @@
 package oo;
 
 public class Carro {
+	
 	Motor motor = new Motor();
 	void acelerar() {
 		motor.fatorInjecao += 0.4;

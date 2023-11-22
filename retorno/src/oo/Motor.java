@@ -2,7 +2,7 @@ package oo;
 
 public class Motor {
 	boolean ligado = false;
-	double fatorInjecao = 1;
+	double fatorInjecao = 1.0;
 	
 	int giros(){
 		if(!ligado) {
