@@ -24,7 +24,7 @@ public class CursoTeste {
 			System.out.println("E meu nome é: " + aluno.nome);
 			System.out.println("=================");
 		}
-		System.out.println("O aluno: " + aluno1 + "Está matriculado nos seguintes cursos: " + aluno1.cursos);
+		
 		
 	}
 }
