@@ -10,4 +10,13 @@ public class Compra {
 	void adicionarItem(Produto p, int qtd) {
 		this.itens.add(new Item(p, qtd));
 	}
+	double obterValorTotal() {
+		double total = 0;
+		
+		for(Item item: itens) {
+			total += item.quantidade * item.produto.preco;
+		}
+		
+		return total;
+	}
 }
