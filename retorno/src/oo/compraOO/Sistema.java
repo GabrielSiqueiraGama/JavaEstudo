@@ -10,7 +10,7 @@ public class Sistema {
 		compra1.adicionarItem(new Produto("Foice", 55.80), 1);
 		
 		Compra compra2 = new Compra();
-		compra2.adicionarItem("Desinfetante", 12.80, 1);
+		compra2.adicionarItem("Desinfetante", 12.90, 1);
 		compra2.adicionarItem(new Produto("Cloro", 55.80), 1);
 		
 		cliente.compras.add(compra1);
