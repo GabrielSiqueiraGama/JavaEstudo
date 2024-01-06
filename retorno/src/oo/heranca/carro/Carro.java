@@ -2,9 +2,8 @@ package oo.heranca.carro;
 
 public class Carro {
 	int velocidade;
-	boolean acelerar() {
+	void acelerar() {
 		velocidade += 5;
-		return true;
 	}
 	boolean frear() {
 		if(velocidade > 0) {
