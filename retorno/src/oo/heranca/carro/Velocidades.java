@@ -14,7 +14,7 @@ public class Velocidades {
 		fusca.velocidade = 10;
 		fusca.acelerar();
 		fusca.acelerar();//Aqui a variavel adiciona apenas +5 em cada vez que é chamada
-
+		fusca.frear();
 		
 		System.out.println("Fusca: " + fusca.velocidade);
 	}
