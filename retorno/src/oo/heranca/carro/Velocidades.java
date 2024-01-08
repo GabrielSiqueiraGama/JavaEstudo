@@ -2,7 +2,8 @@ package oo.heranca.carro;
 
 public class Velocidades {
 	public static void main(String[] args) {
-		Carro ferrari = new Ferrari();
+		Carro ferrari = new Ferrari(320);
+		System.out.println(ferrari.VELOCIDADE_MAXIMA);
 		ferrari.velocidade = 0;
 		ferrari.acelerar();//Como a função herda uma função adaptada, o valor da variavel é diferente no momento em que a chamada é realizada
 		ferrari.acelerar();
