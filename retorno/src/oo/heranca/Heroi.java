@@ -1,6 +1,11 @@
 package oo.heranca;
 
 public class Heroi extends Jogador{
+	
+	Heroi(int x, int y){
+		super(x,y);
+	}
+	
 	boolean atacar(Jogador oponente) {//Utilizando herança substituindo os valores dentro da função.
 		int deltaX = Math.abs(x - oponente.x);
 		int deltaY = Math.abs(y - oponente.y);

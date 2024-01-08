@@ -5,6 +5,13 @@ public class Jogador {
 	int x;
 	int y;
 	
+//	Jogador(){ Fazendo um construtor padrão para herança.
+//		this(0,0);
+//	}
+	Jogador(int x, int y){
+		this.x = x;
+		this.y = y;
+	}
 	boolean atacar(Jogador p2) {
 		int deltaX = Math.abs(x - p2.x);//Calcula a distancia entre os jogadores
 		int deltaY = Math.abs(y - p2.y);//Caso o numero seja negativo, arredonda p/1
