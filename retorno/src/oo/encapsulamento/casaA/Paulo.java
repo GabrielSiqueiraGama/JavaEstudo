@@ -7,7 +7,7 @@ public class Paulo {
 		//System.out.println(esposa.segredo); Não tem como acessar por ser privado
 		System.out.println(esposa.dentroDeCasa);// possivel de acessar pois está na mesma pasta.
 		System.out.println(esposa.sotaque);//mesma pasta também.
-		System.out.println();//Publico é visto por todos.
+		System.out.println(esposa.nome);//Publico é visto por todos.
 
 	}
 }
