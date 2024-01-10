@@ -1,9 +1,9 @@
 package oo.heranca;
 
 public class Jogador {
-	public int vida = 100;
-	public int x;
-	public int y;
+	int vida = 100;
+	int x;
+	int y;
 	
 //	Jogador(){ Fazendo um construtor padrão para herança.
 //		this(0,0);
@@ -43,4 +43,25 @@ public class Jogador {
 		}
 		return true;
 	}
+	public int getVida() {
+		return vida;
+	}
+	public void setVida(int vida) {
+		this.vida = vida;
+	}
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getY() {
+		return y;
+	}
+	public void setY(int y) {
+		this.y = y;
+	}
+	
+	
+	
 }

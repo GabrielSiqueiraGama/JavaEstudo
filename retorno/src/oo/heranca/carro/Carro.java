@@ -2,9 +2,9 @@ package oo.heranca.carro;
 
 public class Carro {
 	
-	public final int VELOCIDADE_MAXIMA;
-	public int velocidade;
-	protected int valor = 5;
+	final int VELOCIDADE_MAXIMA;
+	int velocidade;
+	int valor = 5;
 	
 	Carro(int velocidadeMaxima){
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
@@ -26,4 +26,19 @@ public class Carro {
 			return false;
 		}
 	}
+
+	public int getVelocidade() {
+		return velocidade;
+	}
+
+	public void setVelocidade(int velocidade) {
+		this.velocidade = velocidade;
+	}
+
+	public int getVELOCIDADE_MAXIMA() {
+		return VELOCIDADE_MAXIMA;
+	}
+	
+	
+	
 }

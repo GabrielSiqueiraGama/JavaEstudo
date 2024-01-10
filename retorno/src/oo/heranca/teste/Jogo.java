@@ -8,18 +8,18 @@ public class Jogo {
 		Heroi heroi = new Heroi(10, 10);
 		
 		Monstro monstro = new Monstro();
-		monstro.x = 10;
-		monstro.y = 11;
+		monstro.setX(10);
+		monstro.setY(11);
 		
-		System.out.println(heroi.vida);
-		System.out.println(monstro.vida);
+		System.out.println(heroi.getVida());
+		System.out.println(monstro.getVida());
 		
 		heroi.atacar(monstro);
 		heroi.atacar(monstro);
 		monstro.atacar(heroi);
 		monstro.atacar(heroi);
 		
-		System.out.println("Vida do heroi: " + heroi.vida);
-		System.out.println("Vida do monstro: " + monstro.vida);
+		System.out.println("Vida do heroi: " + heroi.getVida());
+		System.out.println("Vida do monstro: " + monstro.getVida());
 	}
 }
