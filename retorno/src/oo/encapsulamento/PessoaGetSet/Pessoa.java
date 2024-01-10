@@ -11,7 +11,12 @@ public class Pessoa {
 	public int getIdade() {
 		return idade;
 	}
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public void setIdade(int novaIdade) {
+		if(novaIdade >= 0) {
+			this.idade = novaIdade;
+		}else {
+			System.out.println("Não é possivel colocar uma idade negativa");
+		}
+		
 	}
 }

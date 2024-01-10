@@ -5,7 +5,7 @@ public class PessoaTest {
 	public static void main(String[] args) {
 
 		Pessoa p1 = new Pessoa(18);
-		p1.setIdade(19);
+		p1.setIdade(-1);
 		
 		System.out.println(p1.getIdade());
 
