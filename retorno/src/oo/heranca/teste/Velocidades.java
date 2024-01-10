@@ -1,4 +1,8 @@
-package oo.heranca.carro;
+package oo.heranca.teste;
+
+import oo.heranca.carro.Carro;
+import oo.heranca.carro.Ferrari;
+import oo.heranca.carro.Fusca;
 
 public class Velocidades {
 	public static void main(String[] args) {

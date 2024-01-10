@@ -1,9 +1,9 @@
 package oo.heranca;
 
 public class Jogador {
-	int vida = 100;
-	int x;
-	int y;
+	public int vida = 100;
+	public int x;
+	public int y;
 	
 //	Jogador(){ Fazendo um construtor padrão para herança.
 //		this(0,0);
@@ -12,7 +12,7 @@ public class Jogador {
 		this.x = x;
 		this.y = y;
 	}
-	boolean atacar(Jogador p2) {
+	public boolean atacar(Jogador p2) {
 		int deltaX = Math.abs(x - p2.x);//Calcula a distancia entre os jogadores
 		int deltaY = Math.abs(y - p2.y);//Caso o numero seja negativo, arredonda p/1
 		if(deltaX == 0 && deltaY == 1) {
@@ -27,7 +27,7 @@ public class Jogador {
 	}
 	
 	
-	Boolean andar(Direcao direcao) {
+	public Boolean andar(Direcao direcao) {
 		switch(direcao) {
 		case NORTE:
 			y--;

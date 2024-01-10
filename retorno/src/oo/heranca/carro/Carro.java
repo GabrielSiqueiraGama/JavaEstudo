@@ -2,15 +2,15 @@ package oo.heranca.carro;
 
 public class Carro {
 	
-	final int VELOCIDADE_MAXIMA;
-	int velocidade;
-	int valor = 5;
+	public final int VELOCIDADE_MAXIMA;
+	public int velocidade;
+	protected int valor = 5;
 	
 	Carro(int velocidadeMaxima){
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 	
-	void acelerar() {
+	public void acelerar() {
 		if(velocidade + valor > VELOCIDADE_MAXIMA) {
 			velocidade = VELOCIDADE_MAXIMA;
 		}else {
@@ -18,7 +18,7 @@ public class Carro {
 		}
 		
 	}
-	boolean frear() {
+	public boolean frear() {
 		if(velocidade > 0) {
 			velocidade -= 5;
 			return true;
