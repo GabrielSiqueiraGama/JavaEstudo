@@ -8,7 +8,7 @@ public class TesteProduto {
 		Produto p1 = new Produto();
 		Produto.desconto = 30;
 		p1.nome = "Notebook";
-		p1.preco = 120.50;
+		p1.preco = 120.00;
 		
 		var p2 = new Produto();
 		p2.nome = "Caneta azul";
