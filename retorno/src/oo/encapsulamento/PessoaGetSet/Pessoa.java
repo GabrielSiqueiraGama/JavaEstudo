@@ -2,10 +2,21 @@ package oo.encapsulamento.PessoaGetSet;
 
 public class Pessoa {
 	
+	private String nome;
 	private int idade;
 	
-	public Pessoa(int idade) {
-		this.idade = idade;
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public Pessoa(String nome, int idade) {
+		setIdade(idade);
+		setNome(nome);
 	}
 	
 	public int getIdade() {
@@ -17,6 +28,12 @@ public class Pessoa {
 		}else {
 			System.out.println("Não é possivel colocar uma idade negativa");
 		}
-		
 	}
+	
+	@Override
+	public String toString() {
+		return "Olá, eu sou o " + getNome()
+		+ "e tenho " + getIdade() + "anos.";
+	}
+	
 }
