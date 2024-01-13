@@ -15,8 +15,8 @@ public class TesteProduto {
 		p2.preco = 100;
 		System.out.println("Digite o valor do desconto");
 		
-		double precofinal1 = p1.preco * (1 -(p1.desconto/100));
-		double precofinal2 = p2.precoComDesconto(p2.desconto);
+		double precofinal1 = p1.preco * (1 -(Produto.desconto/100));
+		double precofinal2 = p2.precoComDesconto(Produto.desconto);
 		
 		System.out.println("O preço do produto: " + p1.nome + "foi de: " + precofinal1);
 		System.out.println("O preço do produto: " + p2.nome + "foi de: " + precofinal2);
