@@ -6,16 +6,24 @@ import oo.heranca.carro.Fusca;
 
 public class Velocidades {
 	public static void main(String[] args) {
-		Carro ferrari = new Ferrari(320);
+		
+		Ferrari ferrari = new Ferrari(320);
+		
 		System.out.println(ferrari.getVELOCIDADE_MAXIMA());
+		
 		ferrari.setVelocidade(0);;
+		ferrari.ligarTurbo();
 		ferrari.acelerar();//Como a função herda uma função adaptada, o valor da variavel é diferente no momento em que a chamada é realizada
 		ferrari.acelerar();
+		
 		System.out.println("Ferrari: " + ferrari.getVelocidade());
+		
 		ferrari.frear();
+		
 		System.out.println("Ferrari: " + ferrari.getVelocidade());
 		
 		Carro fusca = new Fusca();
+		
 		fusca.setVelocidade(10);;
 		fusca.acelerar();
 		fusca.acelerar();//Aqui a variavel adiciona apenas +5 em cada vez que é chamada

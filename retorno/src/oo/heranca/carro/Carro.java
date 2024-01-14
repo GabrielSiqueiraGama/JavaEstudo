@@ -4,17 +4,17 @@ public class Carro {
 	
 	final int VELOCIDADE_MAXIMA;
 	int velocidade;
-	int valor = 5;
+	private int valor = 5;
 	
 	Carro(int velocidadeMaxima){
 		VELOCIDADE_MAXIMA = velocidadeMaxima;
 	}
 	
 	public void acelerar() {
-		if(velocidade + valor > VELOCIDADE_MAXIMA) {
+		if(velocidade + getValor() > VELOCIDADE_MAXIMA) {
 			velocidade = VELOCIDADE_MAXIMA;
 		}else {
-			velocidade += valor;
+			velocidade += getValor();
 		}
 		
 	}
@@ -37,6 +37,14 @@ public class Carro {
 
 	public int getVELOCIDADE_MAXIMA() {
 		return VELOCIDADE_MAXIMA;
+	}
+
+	public int getValor() {
+		return valor;
+	}
+
+	public void setValor(int valor) {
+		this.valor = valor;
 	}
 	
 	
