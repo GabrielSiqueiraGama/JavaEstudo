@@ -1,4 +1,4 @@
-package oo;
+package oo.diversos;
 
 public class Item {
 	String nome;

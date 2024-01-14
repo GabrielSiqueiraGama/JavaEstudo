@@ -1,4 +1,4 @@
-package oo;
+package oo.diversos;
 
 import java.util.ArrayList;
 

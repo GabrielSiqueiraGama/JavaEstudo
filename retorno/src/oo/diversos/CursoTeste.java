@@ -1,4 +1,4 @@
-package oo;
+package oo.diversos;
 
 public class CursoTeste {
 	public static void main(String[] args) {

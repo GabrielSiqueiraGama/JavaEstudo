@@ -1,4 +1,4 @@
-package oo;
+package oo.diversos;
 
 public class Motor {
 	final Carro carro;

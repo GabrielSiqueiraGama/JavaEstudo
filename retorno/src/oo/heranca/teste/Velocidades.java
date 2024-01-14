@@ -14,7 +14,9 @@ public class Velocidades {
 		ferrari.setVelocidade(0);;
 		ferrari.ligarTurbo();
 		ferrari.acelerar();//Como a função herda uma função adaptada, o valor da variavel é diferente no momento em que a chamada é realizada
+		ferrari.ligarAr();
 		ferrari.acelerar();
+		
 		
 		System.out.println("Ferrari: " + ferrari.getVelocidade());
 		
