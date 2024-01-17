@@ -1,4 +1,4 @@
-package orientacaoObjeto;
+package oo.inicio;
 
 public class Produto {
 	String nome;

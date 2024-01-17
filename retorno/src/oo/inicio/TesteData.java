@@ -1,4 +1,4 @@
-package orientacaoObjeto;
+package oo.inicio;
 
 import java.util.Scanner;
 
