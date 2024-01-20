@@ -23,8 +23,7 @@ public class Desafio {
 				preco -> ("R$" + preco).replace(".", ",");
 
 		Produto p = new Produto("oi", 105.88, 0.13);
-		
-		
+
 		String precoFinalString = precoFinal
 				.andThen(imposto)
 				.andThen(frete)
