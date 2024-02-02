@@ -1,26 +1,48 @@
 package streams;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Function;
+import java.util.function.UnaryOperator;
+
 public class AtividadeMap {
 	
 	public static void main(String[] args) {
-//		int x = 1;
-//		String bin = Integer.toBinaryString(x);
+		
+		Consumer<Object> print = System.out::println;
+		
+//		int x = 12;
+//		String bina = Integer.toBinaryString(x);
+//		System.out.println(bina);
+//			
+//		int y = 10;
+//		String bin = "";
+//		bin = Integer.toBinaryString(y);
 //		System.out.println(bin);
 		
-		int x =13;
-		int r=0;
-		String b="";
-		System.out.println("x:"+x);
-		b=Integer.toBinaryString(x);
-		System.out.println("b:"+b);
-		System.out.println("conferindo:"+Integer.parseInt(b,2));
-		System.out.println("......");
+		List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9);
 		
 		
-		int y = 10;
-		String bin = "";
-		bin = Integer.toBinaryString(y);
-		System.out.println(bin);
+		String nome = "Gabriel";
+		
+//		UnaryOperator<String> inverterNome = 
+//				n -> new StringBuilder(nome).reverse().toString(); Tentando descobrir como inverter a string estando como função
+		
+		System.out.println();
+				
+		UnaryOperator<String> inverter = 
+				n -> new StringBuilder(n).reverse().toString();
+		Function<String, Integer> binarioParaInt =
+				s -> Integer.parseInt(s, 2);
+				
+				
+		numeros.stream()
+			.map(n -> Integer.toBinaryString(n)//Aqui transforma o numero em binario
+				.toString())//Aqui converte para String
+					.map(inverter)//Aqui chama a função inverter
+						.map(binarioParaInt)//converte binario para inteiro
+						.forEach(print);//Aqui imprime
 	}
 	
 }
