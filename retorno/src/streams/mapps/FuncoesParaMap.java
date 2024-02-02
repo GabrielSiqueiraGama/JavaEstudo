@@ -1,4 +1,4 @@
-package streams;
+package streams.mapps;
 
 import java.util.function.UnaryOperator;
 

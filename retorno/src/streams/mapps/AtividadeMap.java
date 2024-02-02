@@ -1,4 +1,4 @@
-package streams;
+package streams.mapps;
 
 import java.util.Arrays;
 import java.util.List;
@@ -13,14 +13,6 @@ public class AtividadeMap {
 		
 		Consumer<Object> print = System.out::println;
 		Scanner scn = new Scanner(System.in);
-//		int x = 12;
-//		String bina = Integer.toBinaryString(x);
-//		System.out.println(bina);
-//			
-//		int y = 10;
-//		String bin = "";
-//		bin = Integer.toBinaryString(y);
-//		System.out.println(bin);
 		
 		List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9);
 		
