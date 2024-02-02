@@ -26,10 +26,9 @@ public class AtividadeMap {
 		
 		
 		String nome = scn.next();
-		List<String> nomes = Arrays.asList(nome);
-		
-//		UnaryOperator<String> inverterNome = 
-//				n -> new StringBuilder(nome).reverse().toString(); Tentando descobrir como inverter a string estando como função
+		String nomeInvertido = new StringBuilder(nome).reverse().toString();
+		System.out.println(nomeInvertido);
+//		Invertendo a string da variavel.
 		
 		System.out.println();
 				
@@ -38,7 +37,7 @@ public class AtividadeMap {
 		Function<String, Integer> binarioParaInt =
 				s -> Integer.parseInt(s, 2);
 				
-		nomes.stream().map(inverter).forEach(print);;		
+				
 		numeros.stream()
 			.map(n -> Integer.toBinaryString(n)//Aqui transforma o numero em binario
 				.toString())//Aqui converte para String
