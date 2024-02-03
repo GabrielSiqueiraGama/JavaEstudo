@@ -31,7 +31,7 @@ public class AtividadeFilter {
 			.filter(p -> p.preco >= 1000 & p.freteGratis)
 				.filter(descontoMaior50)
 					.map(texto)
-						.forEach(println);;
+						.forEach(println);
 		
 	}
 	
