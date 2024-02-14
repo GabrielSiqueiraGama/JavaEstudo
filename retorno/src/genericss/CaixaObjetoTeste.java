@@ -10,6 +10,9 @@ public class CaixaObjetoTeste {
 		Double coisa = (Double) caixaA.abrir();
 		System.out.println(coisa);
 		
+		Caixa<String> caixaB = new Caixa<>();
+		caixaB.guardar("Opa");
+		System.out.println(caixaB);
 	}
 	
 }
