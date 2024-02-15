@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class NotasInformadas {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Quantas notas deseja digitar?");
 		int x = scn.nextInt();

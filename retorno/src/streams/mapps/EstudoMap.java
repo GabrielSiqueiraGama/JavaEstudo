@@ -9,7 +9,6 @@ public class EstudoMap {
 	public static void main(String[] args) {
 		
 		Consumer<String> print = System.out::print;
-		Consumer<String> println = System.out::println;
 		
 		List<String> marcas = Arrays.asList("bmw ", "civic ", "honda \n");
 		

@@ -2,6 +2,10 @@ package tratamentoErros.personalizada2;
 
 public class NumeroInvalidoException extends Exception {
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private String nomeDoAtributo;
 	
 	public NumeroInvalidoException(String nomeDoAtributo) {

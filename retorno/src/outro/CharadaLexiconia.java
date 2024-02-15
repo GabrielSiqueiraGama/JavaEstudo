@@ -1,13 +1,13 @@
 package outro;
 
-import java.util.*;
 import java.util.PriorityQueue;
 import java.util.Scanner;
 
 public class CharadaLexiconia {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner scanner = new Scanner(System.in);
 
         // Entrada da string
         String s = scanner.nextLine();

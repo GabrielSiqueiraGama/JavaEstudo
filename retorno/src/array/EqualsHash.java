@@ -1,6 +1,5 @@
 package array;
 
-import java.util.Scanner;
 
 public class EqualsHash {
 	public static void main(String[] args) {

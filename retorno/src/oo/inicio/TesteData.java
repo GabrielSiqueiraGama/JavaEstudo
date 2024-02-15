@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class TesteData {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		
 		Dataa d1 = new Dataa();

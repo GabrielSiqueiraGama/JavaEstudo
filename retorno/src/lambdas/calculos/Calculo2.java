@@ -7,6 +7,7 @@ public class Calculo2 {
 	
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		//Não se tem mais a função executar por não chamar a Classe
 		BinaryOperator<Double> calculo = (a, b) ->{return a + b; };

@@ -2,6 +2,7 @@ package oo.polimorfismo;
 
 public class Jantar {
 
+	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 
 		PessoaPolimorfismo convidado = new PessoaPolimorfismo(99.60);

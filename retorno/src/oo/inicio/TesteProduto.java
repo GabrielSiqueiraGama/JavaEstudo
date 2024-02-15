@@ -1,10 +1,8 @@
 package oo.inicio;
 
-import java.util.Scanner;
 
 public class TesteProduto {
 	public static void main(String[] args) {
-		Scanner scn = new Scanner(System.in);
 		Produto p1 = new Produto();
 		Produto.desconto = 30;
 		p1.nome = "Notebook";

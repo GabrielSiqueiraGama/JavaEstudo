@@ -4,14 +4,11 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.BiFunction;
 import java.util.function.BinaryOperator;
-import java.util.function.Consumer;
 import java.util.function.Function;
 
 public class MediaReduce {
 
 	public static void main(String[] args) {
-		
-		Consumer<Double> print = System.out::print;
 		
 		Aluno a1 = new Aluno("Zhant", 7.0);
 		Aluno a2 = new Aluno("Sümeyye", 10.0);

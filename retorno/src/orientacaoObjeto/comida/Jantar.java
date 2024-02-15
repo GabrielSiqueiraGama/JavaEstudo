@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class Jantar {
 	public static void main(String[] args) {
 		
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
-		Comida c1 = new Comida("Arroz", 0.100);
 		Comida c2 = new Comida("Feijão", 0.140);
 		
 		System.out.println("Digite seu nome: ");

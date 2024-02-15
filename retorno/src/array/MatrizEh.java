@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class MatrizEh {
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		System.out.println("Digite a quantidade de alunos: ");
 		int qtdAlunos = scn.nextInt();

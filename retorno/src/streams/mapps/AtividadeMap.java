@@ -12,6 +12,7 @@ public class AtividadeMap {
 	public static void main(String[] args) {
 		
 		Consumer<Object> print = System.out::println;
+		@SuppressWarnings("resource")
 		Scanner scn = new Scanner(System.in);
 		
 		List<Integer> numeros = Arrays.asList(1,2,3,4,5,6,7,8,9);
