@@ -1,4 +1,4 @@
-package genericss;
+package genericss.caixa;
 
 public class Caixa<TIPO> {
 
