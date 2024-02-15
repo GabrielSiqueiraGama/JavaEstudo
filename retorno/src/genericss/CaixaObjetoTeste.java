@@ -13,6 +13,12 @@ public class CaixaObjetoTeste {
 		Caixa<String> caixaB = new Caixa<>();
 		caixaB.guardar("Opa");
 		System.out.println(caixaB);
+		
+		CaixaHerdeira caixaC = new CaixaHerdeira();
+		caixaC.guardar(234);
+		
+		CaixaRestrita<Double> caixaD = new CaixaRestrita<>();
+		caixaD.guardar(12.4);
 	}
 	
 }
