@@ -8,6 +8,5 @@ public class VetorAula {
 		vetor.adicionar(2);
 		vetor.adicionar(3);
 		vetor.adicionar(43);
-		
 	}
 }
